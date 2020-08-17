@@ -1,0 +1,43 @@
+.result {
+  height: 60px;
+  background-color: cyan;
+  border: 1px solid black;
+}
+
+.result input[type=text] {
+  font-size: 30px;
+  text-align: right;
+  width: 100%;
+  background-color: cyan;
+  border:1px solid black;
+  padding: 14px 20px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.all {
+  width: 380px;
+  margin: auto;
+}
+
+.allbutton {
+  background-color: black;
+  color: cyan;
+  font-weight: bold;
+  padding: 15px 32px;
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+}
+
+.allbutton:hover{
+  color: black;
+  background-color: cyan;
+}
+
+.allbutton:active{
+  background-color: black;
+  color: cyan;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
